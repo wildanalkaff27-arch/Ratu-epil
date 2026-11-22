@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 await music.play();
                 updateMusicButton(true);
             } catch (error) {
-                alert("Periksa file music/lagu.mp3 ya!");
+                alert("Periksa file lagu.mp3 ya!");
             }
 
         } else {
@@ -492,12 +492,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==================================
 
     const boothPhotos = [
-        { src: "foto/aira1.jpeg", caption: "Anak DP nie" },
-        { src: "foto/aira2.jpeg", caption: "Masa-masa MTS" },
-        { src: "foto/aira3.jpeg", caption: "Mirror" },
-        { src: "foto/aira4.jpeg", caption: "Little sunshine ☀" },
-        { src: "foto/aira5.jpeg", caption: "Candi Prambanan" },
-        { src: "foto/aira6.jpeg", caption: "hmmmmmmmm" }
+        { src: "aira1.jpeg", caption: "Anak DP nie" },
+        { src: "aira2.jpeg", caption: "Masa-masa MTS" },
+        { src: "aira3.jpeg", caption: "Mirror" },
+        { src: "aira4.jpeg", caption: "Little sunshine ☀" },
+        { src: "aira5.jpeg", caption: "Candi Prambanan" },
+        { src: "aira6.jpeg", caption: "hmmmmmmmm" }
     ];
 
     let boothIndex = 0;
